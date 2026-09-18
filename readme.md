@@ -20,4 +20,12 @@ You would only use those either to keep something in, or to keep something out..
 
 Bruce found crawlspaces and didnth think much of them. Until he heard The Wanderer
 
-The Wanderer is a big
+The Wanderer is a fast moving black.. thing. that moves around in the halls, when he comes hide in the crawl spaces
+there will ALWAYS be a crawl space where he spawned. watch out for the lanters swinging and a crawl space, that means he's
+coming
+
+## The Players Objective
+
+The Player (thats you!) just has to survival rooms and try to get the highest score, compare high scores with your friends
+(there is not leaderboard system planned, but we will see)! The rooms get harder each level, having more entities spawn and 
+more puzzle rooms. 

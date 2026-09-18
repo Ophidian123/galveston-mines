@@ -1,0 +1,9 @@
+# Godot-specific ignores
+.godot/
+modules/
+
+# Export profiles
+export_presets.cfg
+
+# Build backups
+*.tmp
