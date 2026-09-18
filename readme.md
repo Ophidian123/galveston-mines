@@ -2,7 +2,7 @@
 
 ## The Game
 
-The Galveston mines is a procedurally generated runner style game tat takes inspiration from the Roblox game Doors.
+The Galveston mines is a procedurally generated runner style game that takes inspiration from Roblox games Doors and Grace.
 This project was created on godot and is planned be compleated in 8 weeks for a full release, but expect it to be later
 rather than earlier
 
