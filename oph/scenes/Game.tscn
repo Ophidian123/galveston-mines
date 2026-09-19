@@ -181,7 +181,8 @@ sources/1 = SubResource("TileSetAtlasSource_cpr0p")
 
 [node name="Player" parent="." unique_id=1839652547 instance=ExtResource("1_ibkli")]
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1864130324]
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=1864130324]
+zoom = Vector2(4, 4)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=684191452]
 position = Vector2(0, 33)
