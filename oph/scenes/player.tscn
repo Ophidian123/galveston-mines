@@ -35,7 +35,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_qlg0r")
 }],
 "loop": 1,
-"name": &"idle",
+"name": &"idle_fright",
 "speed": 10.0
 }]
 
@@ -43,15 +43,15 @@ animations = [{
 radius = 5.0
 
 [node name="Player" type="CharacterBody2D" unique_id=1839652547]
+z_index = 5
+collision_layer = 2
 script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=309259828]
 position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_d75x8")
-animation = &"idle"
-autoplay = "idle"
-frame = 1
-frame_progress = 0.029691901
+animation = &"idle_fright"
+autoplay = "idle_fright"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=571824867]
 position = Vector2(0, -5)
