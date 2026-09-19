@@ -53,6 +53,10 @@ sprint={
 
 [rendering]
 
+<<<<<<< Updated upstream:oph/project.godot
 textures/canvas_textures/default_texture_filter=3
+=======
+textures/canvas_textures/default_texture_filter=0
+>>>>>>> Stashed changes:project.godot
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="mobile"
