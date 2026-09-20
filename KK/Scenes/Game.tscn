@@ -3,10 +3,9 @@
 [ext_resource type="Script" uid="uid://bvifpa22gk4k8" path="res://Scripts/game_manager.gd" id="1_71axn"]
 [ext_resource type="PackedScene" uid="uid://ctiy3fsb4qai4" path="res://Scenes/Player.tscn" id="1_ibkli"]
 [ext_resource type="Texture2D" uid="uid://dsblo1ytskdur" path="res://Assets/sprites/world_tileset.png" id="2_qbsmt"]
-[ext_resource type="PackedScene" uid="uid://ckeysf7b5wlpx" path="res://Scenes/coin.tscn" id="3_b2bpf"]
+[ext_resource type="PackedScene" uid="uid://cn2gney3eslnr" path="res://Scenes/coin.tscn" id="3_b2bpf"]
 [ext_resource type="FontFile" uid="uid://bwk41ssk2d4tp" path="res://Assets/fonts/PixelOperator8-Bold.ttf" id="3_bf53h"]
 [ext_resource type="PackedScene" uid="uid://c57bejnxfte3k" path="res://Scenes/Platforms.tscn" id="3_j5yw3"]
-[ext_resource type="Script" uid="uid://ccqlxc5n7wmbp" path="res://Scripts/coin.gd" id="4_7lihs"]
 [ext_resource type="PackedScene" uid="uid://bnfdn4785dm6f" path="res://Scenes/killzone.tscn" id="6_7lihs"]
 [ext_resource type="PackedScene" uid="uid://b8ov0pax0k8ul" path="res://Scenes/Enemy.tscn" id="7_fgofq"]
 [ext_resource type="Script" uid="uid://c4yktlujvvk2o" path="res://Scripts/Return_to_menu.gd" id="8_2irst"]
@@ -349,427 +348,342 @@ autoplay = &"move"
 [node name="Coin" parent="Coins" unique_id=293605689 instance=ExtResource("3_b2bpf")]
 position = Vector2(-133, 16)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin2" parent="Coins" unique_id=2053548397 instance=ExtResource("3_b2bpf")]
 position = Vector2(-27, 14)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin73" parent="Coins" unique_id=2022654941 instance=ExtResource("3_b2bpf")]
 position = Vector2(-27, 14)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin74" parent="Coins" unique_id=1581192164 instance=ExtResource("3_b2bpf")]
 position = Vector2(-772, -291)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin75" parent="Coins" unique_id=423833212 instance=ExtResource("3_b2bpf")]
 position = Vector2(-1790, -82)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin76" parent="Coins" unique_id=1446806255 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2176, -3)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin77" parent="Coins" unique_id=274672990 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2255, 11)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin3" parent="Coins" unique_id=1867082563 instance=ExtResource("3_b2bpf")]
 position = Vector2(590, -35)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin4" parent="Coins" unique_id=599741062 instance=ExtResource("3_b2bpf")]
 position = Vector2(591, -21)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin5" parent="Coins" unique_id=675101488 instance=ExtResource("3_b2bpf")]
 position = Vector2(591, -7)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin6" parent="Coins" unique_id=1673874786 instance=ExtResource("3_b2bpf")]
 position = Vector2(142, -63)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin7" parent="Coins" unique_id=516912637 instance=ExtResource("3_b2bpf")]
 position = Vector2(476, -2)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin8" parent="Coins" unique_id=2111682902 instance=ExtResource("3_b2bpf")]
 position = Vector2(448, -5)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin9" parent="Coins" unique_id=1331604257 instance=ExtResource("3_b2bpf")]
 position = Vector2(27, 9)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin10" parent="Coins" unique_id=553494781 instance=ExtResource("3_b2bpf")]
 position = Vector2(85, -63)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin11" parent="Coins" unique_id=2065875895 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin12" parent="Coins" unique_id=1173096301 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin13" parent="Coins" unique_id=1011405292 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin14" parent="Coins" unique_id=291470340 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin15" parent="Coins" unique_id=693274493 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin16" parent="Coins" unique_id=509280121 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin17" parent="Coins" unique_id=1217576412 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin18" parent="Coins" unique_id=9188956 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin19" parent="Coins" unique_id=558422171 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin20" parent="Coins" unique_id=1985183759 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin21" parent="Coins" unique_id=1536519239 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin22" parent="Coins" unique_id=817238550 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin23" parent="Coins" unique_id=519377470 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin24" parent="Coins" unique_id=394120271 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin25" parent="Coins" unique_id=1540954202 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin26" parent="Coins" unique_id=2146603159 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin72" parent="Coins" unique_id=259697176 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin27" parent="Coins" unique_id=351932312 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin71" parent="Coins" unique_id=735310526 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin28" parent="Coins" unique_id=1365433416 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin70" parent="Coins" unique_id=1788703770 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin29" parent="Coins" unique_id=60516443 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin69" parent="Coins" unique_id=1351614341 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin30" parent="Coins" unique_id=2085122682 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin68" parent="Coins" unique_id=1502536660 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin31" parent="Coins" unique_id=27799577 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin67" parent="Coins" unique_id=17998803 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin32" parent="Coins" unique_id=2015499412 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin66" parent="Coins" unique_id=104961491 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin33" parent="Coins" unique_id=1605557638 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin65" parent="Coins" unique_id=1401043484 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin34" parent="Coins" unique_id=1292802636 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin64" parent="Coins" unique_id=2062958846 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin35" parent="Coins" unique_id=247029195 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin63" parent="Coins" unique_id=585222451 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin36" parent="Coins" unique_id=769887613 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin62" parent="Coins" unique_id=1458598780 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin37" parent="Coins" unique_id=1725058894 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin61" parent="Coins" unique_id=586613024 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin38" parent="Coins" unique_id=914287887 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin60" parent="Coins" unique_id=345105953 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin39" parent="Coins" unique_id=1953985333 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin59" parent="Coins" unique_id=1704447672 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin40" parent="Coins" unique_id=1277709913 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin58" parent="Coins" unique_id=1940921512 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin41" parent="Coins" unique_id=2019876542 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin57" parent="Coins" unique_id=1762569826 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin42" parent="Coins" unique_id=2101748265 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin56" parent="Coins" unique_id=1105208409 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin43" parent="Coins" unique_id=614130217 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin55" parent="Coins" unique_id=1218031936 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin44" parent="Coins" unique_id=1391924197 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin54" parent="Coins" unique_id=1994242155 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin45" parent="Coins" unique_id=1409274673 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin53" parent="Coins" unique_id=18202678 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin46" parent="Coins" unique_id=946634268 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin52" parent="Coins" unique_id=1701493696 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin47" parent="Coins" unique_id=2128136766 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2358, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin51" parent="Coins" unique_id=280053889 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2360, 29)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin48" parent="Coins" unique_id=386806618 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2441, 31)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin50" parent="Coins" unique_id=1840748170 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2335, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin49" parent="Coins" unique_id=597234061 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2377, 29)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin78" parent="Coins" unique_id=1869572532 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2514, 28)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin79" parent="Coins" unique_id=525326711 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2697, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin80" parent="Coins" unique_id=1239355067 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2760, 27)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin81" parent="Coins" unique_id=1931998169 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2911, 29)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin82" parent="Coins" unique_id=313786128 instance=ExtResource("3_b2bpf")]
 position = Vector2(-2976, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin83" parent="Coins" unique_id=1666844616 instance=ExtResource("3_b2bpf")]
 position = Vector2(-3015, 30)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin84" parent="Coins" unique_id=1109349393 instance=ExtResource("3_b2bpf")]
 position = Vector2(-3119, 44)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="Coin85" parent="Coins" unique_id=1556120218 instance=ExtResource("3_b2bpf")]
 position = Vector2(-3238, 43)
 collision_layer = 3
-script = ExtResource("4_7lihs")
 
 [node name="killzone" parent="." unique_id=42697058 instance=ExtResource("6_7lihs")]
 
@@ -798,88 +712,3 @@ position = Vector2(1501, -40)
 position = Vector2(126, 6)
 
 [connection signal="pressed" from="Player/Button" to="Player" method="_on_return_to_menu_pressed"]
-[connection signal="body_entered" from="Coins/Coin" to="Coins/Coin" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin2" to="Coins/Coin2" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin73" to="Coins/Coin73" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin74" to="Coins/Coin74" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin75" to="Coins/Coin75" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin76" to="Coins/Coin76" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin77" to="Coins/Coin77" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin3" to="Coins/Coin3" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin4" to="Coins/Coin4" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin5" to="Coins/Coin5" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin6" to="Coins/Coin6" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin7" to="Coins/Coin7" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin8" to="Coins/Coin8" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin9" to="Coins/Coin9" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin10" to="Coins/Coin10" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin11" to="Coins/Coin11" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin12" to="Coins/Coin12" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin13" to="Coins/Coin13" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin14" to="Coins/Coin14" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin15" to="Coins/Coin15" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin16" to="Coins/Coin16" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin17" to="Coins/Coin17" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin18" to="Coins/Coin18" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin19" to="Coins/Coin19" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin20" to="Coins/Coin20" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin21" to="Coins/Coin21" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin22" to="Coins/Coin22" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin23" to="Coins/Coin23" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin24" to="Coins/Coin24" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin25" to="Coins/Coin25" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin26" to="Coins/Coin26" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin72" to="Coins/Coin72" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin27" to="Coins/Coin27" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin71" to="Coins/Coin71" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin28" to="Coins/Coin28" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin70" to="Coins/Coin70" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin29" to="Coins/Coin29" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin69" to="Coins/Coin69" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin30" to="Coins/Coin30" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin68" to="Coins/Coin68" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin31" to="Coins/Coin31" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin67" to="Coins/Coin67" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin32" to="Coins/Coin32" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin66" to="Coins/Coin66" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin33" to="Coins/Coin33" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin65" to="Coins/Coin65" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin34" to="Coins/Coin34" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin64" to="Coins/Coin64" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin35" to="Coins/Coin35" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin63" to="Coins/Coin63" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin36" to="Coins/Coin36" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin62" to="Coins/Coin62" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin37" to="Coins/Coin37" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin61" to="Coins/Coin61" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin38" to="Coins/Coin38" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin60" to="Coins/Coin60" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin39" to="Coins/Coin39" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin59" to="Coins/Coin59" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin40" to="Coins/Coin40" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin58" to="Coins/Coin58" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin41" to="Coins/Coin41" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin57" to="Coins/Coin57" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin42" to="Coins/Coin42" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin56" to="Coins/Coin56" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin43" to="Coins/Coin43" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin55" to="Coins/Coin55" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin44" to="Coins/Coin44" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin54" to="Coins/Coin54" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin45" to="Coins/Coin45" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin53" to="Coins/Coin53" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin46" to="Coins/Coin46" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin52" to="Coins/Coin52" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin47" to="Coins/Coin47" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin51" to="Coins/Coin51" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin48" to="Coins/Coin48" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin50" to="Coins/Coin50" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin49" to="Coins/Coin49" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin78" to="Coins/Coin78" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin79" to="Coins/Coin79" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin80" to="Coins/Coin80" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin81" to="Coins/Coin81" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin82" to="Coins/Coin82" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin83" to="Coins/Coin83" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin84" to="Coins/Coin84" method="_on_body_entered"]
-[connection signal="body_entered" from="Coins/Coin85" to="Coins/Coin85" method="_on_body_entered"]
