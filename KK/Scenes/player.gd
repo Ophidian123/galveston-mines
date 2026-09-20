@@ -30,10 +30,17 @@ func _physics_process(delta: float) -> void:
 	else:
 		velocity.x = move_toward(velocity.x, 0, current_SPEED)
 
-	if Input.is_action_just_pressed("move_left"):
+	if direction > 0:
+		animated_sprite_2d.flip_h = false 
+	elif direction < 0:
 		animated_sprite_2d.flip_h = true
-	if Input.is_action_just_pressed("move_right"):
-		animated_sprite_2d.flip_h = false
-
-
+		
+	if direction == 0:
+		animated_sprite_2d.play("idle")
+	else:
+		animated_sprite_2d.play("run")
+		
+		if not is_on_floor():
+			animated_sprite_2d.play("jump")
+		
 	move_and_slide()
