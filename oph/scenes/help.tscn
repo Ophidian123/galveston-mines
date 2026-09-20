@@ -63,6 +63,33 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_d75x8")
 
+[node name="Label" type="Label" parent="." unique_id=270063524]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -492.0
+offset_top = 25.0
+offset_right = 484.0
+offset_bottom = 512.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("2_chmrd")
+theme_override_font_sizes/font_size = 32
+text = "A = Left
+D = Right
+Space = Jump
+Shift = Sprint
+you get more score if u collect
+coins, but sometimes some coins
+give more than others!
+Check your score at the top of the
+mountain
+Die if u fall, and if u touch slime
+btw if u die u get sent to main menu
+
+yea thats all u need!"
+horizontal_alignment = 1
+
 [node name="Button" type="Button" parent="." unique_id=1350065657]
 layout_mode = 1
 anchors_preset = 7
@@ -70,10 +97,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -183.5
-offset_top = -250.0
-offset_right = 183.5
-offset_bottom = -124.0
+offset_left = -182.0
+offset_top = -152.0
+offset_right = 185.0
+offset_bottom = -26.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_fonts/font = ExtResource("2_chmrd")
@@ -82,27 +109,5 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_2by0i")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_oar4r")
 theme_override_styles/hover = SubResource("StyleBoxFlat_2c3wl")
 text = "Back"
-
-[node name="Label" type="Label" parent="." unique_id=270063524]
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -486.0
-offset_top = 41.0
-offset_right = 490.0
-offset_bottom = 346.0
-grow_horizontal = 2
-theme_override_fonts/font = ExtResource("2_chmrd")
-theme_override_font_sizes/font_size = 32
-text = "A = Left
-D = Right
-Space = Jump
-Shift = Sprint
-
-btw if u die u get sent to main menu
-
-yea thats all u need!"
-horizontal_alignment = 1
 
 [connection signal="pressed" from="Button" to="." method="_on_back_pressed"]
