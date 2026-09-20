@@ -266,6 +266,18 @@ _data = {
 
 [node name="Game" type="Node2D" unique_id=781706860]
 
+[node name="GameManager" type="Node" parent="." unique_id=632130403]
+unique_name_in_owner = true
+script = ExtResource("1_71axn")
+
+[node name="ScoreLabel" type="Label" parent="GameManager" unique_id=929057810]
+offset_left = -262.0
+offset_top = -144.0
+offset_right = -200.0
+offset_bottom = -115.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "SCORE: "
+
 [node name="TileMap" type="TileMap" parent="." unique_id=1540071301]
 position = Vector2(-9, 3)
 tile_set = SubResource("TileSet_d75x8")
@@ -291,18 +303,6 @@ theme_override_fonts/font = ExtResource("3_bf53h")
 theme_override_font_sizes/font_size = 8
 text = "Back to menu"
 script = ExtResource("8_2irst")
-
-[node name="GameManager" type="Node" parent="Player" unique_id=632130403]
-unique_name_in_owner = true
-script = ExtResource("1_71axn")
-
-[node name="ScoreLabel" type="Label" parent="Player/GameManager" unique_id=929057810]
-offset_left = -262.0
-offset_top = -144.0
-offset_right = -200.0
-offset_bottom = -115.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-text = "SCORE: "
 
 [node name="Borders" type="Node" parent="." unique_id=1199189517]
 
