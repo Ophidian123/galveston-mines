@@ -5,6 +5,8 @@ var current_SPEED = 150.0
 const JUMP_VELOCITY = -300.0
 const walk_SPEED = 150.0
 const sprint_SPEED = 250.0
+@onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
+
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -27,5 +29,11 @@ func _physics_process(delta: float) -> void:
 		velocity.x = direction * current_SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, current_SPEED)
+		
+	if Input.is_action_just_pressed("move_left"):
+		animated_sprite_2d.flip_h = true
+	if Input.is_action_just_pressed("move_right"):
+		animated_sprite_2d.flip_h = false
+	
 
 	move_and_slide()
