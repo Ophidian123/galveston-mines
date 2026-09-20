@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dsblo1ytskdur" path="res://Assets/sprites/world_tileset.png" id="2_qbsmt"]
 [ext_resource type="PackedScene" uid="uid://ckeysf7b5wlpx" path="res://Scenes/coin.tscn" id="3_b2bpf"]
 [ext_resource type="PackedScene" uid="uid://c57bejnxfte3k" path="res://Scenes/Platforms.tscn" id="3_j5yw3"]
-[ext_resource type="Script" uid="uid://ccqlxc5n7wmbp" path="res://Scenes/coin.gd" id="4_7lihs"]
+[ext_resource type="Script" uid="uid://ccqlxc5n7wmbp" path="res://Scripts/coin.gd" id="4_7lihs"]
 [ext_resource type="PackedScene" uid="uid://bnfdn4785dm6f" path="res://Scenes/killzone.tscn" id="6_7lihs"]
 [ext_resource type="PackedScene" uid="uid://b8ov0pax0k8ul" path="res://Scenes/Enemy.tscn" id="7_fgofq"]
 
