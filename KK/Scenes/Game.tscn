@@ -275,7 +275,6 @@ layer_1/tile_data = PackedInt32Array(131068, 1, 0, 131069, 1, 0, 131070, 1, 0, 6
 
 [node name="Player" parent="." unique_id=1839652547 instance=ExtResource("1_ibkli")]
 position = Vector2(2, 17)
-collision_layer = 3
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1864130324]
 zoom = Vector2(2, 2)
@@ -689,25 +688,25 @@ position = Vector2(11, 761)
 shape = SubResource("WorldBoundaryShape2D_48e45")
 
 [node name="Slime" parent="." unique_id=1000528566 instance=ExtResource("7_fgofq")]
-position = Vector2(-2306, 4)
+position = Vector2(-2307, 7)
 
 [node name="Slime2" parent="." unique_id=703848534 instance=ExtResource("7_fgofq")]
-position = Vector2(-516, -378)
+position = Vector2(-513, -377)
 
 [node name="Slime3" parent="." unique_id=1149570242 instance=ExtResource("7_fgofq")]
-position = Vector2(-663, -351)
+position = Vector2(-657, -346)
 
 [node name="Slime4" parent="." unique_id=1756089701 instance=ExtResource("7_fgofq")]
-position = Vector2(682, 5)
+position = Vector2(680, 8)
 
 [node name="Slime5" parent="." unique_id=550331800 instance=ExtResource("7_fgofq")]
-position = Vector2(1168, 38)
+position = Vector2(1189, 39)
 
 [node name="Slime6" parent="." unique_id=420850947 instance=ExtResource("7_fgofq")]
-position = Vector2(1501, -44)
+position = Vector2(1501, -40)
 
 [node name="Slime7" parent="." unique_id=587817862 instance=ExtResource("7_fgofq")]
-position = Vector2(2140, -27)
+position = Vector2(126, 6)
 
 [connection signal="body_entered" from="Coins/Coin" to="Coins/Coin" method="_on_body_entered"]
 [connection signal="body_entered" from="Coins/Coin2" to="Coins/Coin2" method="_on_body_entered"]
