@@ -88,10 +88,10 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -408.0
-offset_top = 52.0
-offset_right = 410.0
-offset_bottom = 259.0
+offset_left = -486.0
+offset_top = 41.0
+offset_right = 490.0
+offset_bottom = 346.0
 grow_horizontal = 2
 theme_override_fonts/font = ExtResource("2_chmrd")
 theme_override_font_sizes/font_size = 32
@@ -99,6 +99,8 @@ text = "A = Left
 D = Right
 Space = Jump
 Shift = Sprint
+
+btw if u die u get sent to main menu
 
 yea thats all u need!"
 horizontal_alignment = 1
