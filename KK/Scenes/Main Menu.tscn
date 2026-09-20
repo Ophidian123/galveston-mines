@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://b28eyjosed2s" path="res://Assets/sprites/Screenshot 2026-09-20 160622.png" id="1_hcxxy"]
 [ext_resource type="FontFile" uid="uid://bwk41ssk2d4tp" path="res://Assets/fonts/PixelOperator8-Bold.ttf" id="1_totuj"]
-[ext_resource type="Script" uid="uid://bh34m7blmedys" path="res://Scripts/main_menu.gd" id="1_ur25d"]
+[ext_resource type="Script" uid="uid://dvmirhwmd0ukc" path="res://Scripts/Menu.gd" id="3_ur25d"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f6ax7"]
 texture = ExtResource("1_hcxxy")
@@ -52,7 +52,6 @@ offset_right = 1.0
 offset_bottom = -5.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_ur25d")
 
 [node name="Panel" type="Panel" parent="." unique_id=1414810123]
 z_index = -1
@@ -97,6 +96,7 @@ theme_override_styles/disabled = SubResource("StyleBoxFlat_prtsi")
 theme_override_styles/disabled_mirrored = SubResource("StyleBoxFlat_prtsi")
 theme_override_styles/focus = SubResource("StyleBoxFlat_prtsi")
 text = "Start Game"
+script = ExtResource("3_ur25d")
 
 [node name="Button2" type="Button" parent="VBoxContainer" unique_id=1144284431]
 layout_mode = 2
@@ -165,3 +165,6 @@ autowrap_mode = 2
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_settings_pressed"]
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_help_pressed"]
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button" to="VBoxContainer/Button" method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="VBoxContainer/Button" method="_on_button_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button3" to="VBoxContainer/Button" method="_on_help_pressed"]
