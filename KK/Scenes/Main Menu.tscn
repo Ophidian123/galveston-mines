@@ -9,6 +9,30 @@ modulate_color = Color(0.2520276, 0.25202766, 0.25202763, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_prtsi"]
 bg_color = Color(0.035134584, 0.018203419, 0.048101626, 1)
+border_width_top = 9
+border_width_bottom = 4
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 1
+shadow_offset = Vector2(0, 10)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hcxxy"]
+bg_color = Color(0.035134584, 0.018203419, 0.048101626, 1)
+border_width_top = 6
+border_width_bottom = 4
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 1
+shadow_offset = Vector2(0, 10)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ur25d"]
+bg_color = Color(0.035134584, 0.018203419, 0.048101626, 1)
+border_width_top = 6
+border_width_bottom = 4
 corner_radius_top_left = 16
 corner_radius_top_right = 16
 corner_radius_bottom_right = 16
@@ -61,8 +85,8 @@ theme_override_fonts/font = ExtResource("1_totuj")
 theme_override_font_sizes/font_size = 48
 theme_override_styles/normal = SubResource("StyleBoxFlat_prtsi")
 theme_override_styles/normal_mirrored = SubResource("StyleBoxFlat_prtsi")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_prtsi")
-theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_prtsi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hcxxy")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_ur25d")
 theme_override_styles/hover = SubResource("StyleBoxFlat_prtsi")
 theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_prtsi")
 theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_prtsi")
@@ -81,8 +105,8 @@ theme_override_fonts/font = ExtResource("1_totuj")
 theme_override_font_sizes/font_size = 48
 theme_override_styles/normal = SubResource("StyleBoxFlat_prtsi")
 theme_override_styles/normal_mirrored = SubResource("StyleBoxFlat_prtsi")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_prtsi")
-theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_prtsi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hcxxy")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_ur25d")
 theme_override_styles/hover = SubResource("StyleBoxFlat_prtsi")
 theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_prtsi")
 theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_prtsi")
@@ -101,8 +125,8 @@ theme_override_fonts/font = ExtResource("1_totuj")
 theme_override_font_sizes/font_size = 48
 theme_override_styles/normal = SubResource("StyleBoxFlat_prtsi")
 theme_override_styles/normal_mirrored = SubResource("StyleBoxFlat_prtsi")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_prtsi")
-theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_prtsi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hcxxy")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_ur25d")
 theme_override_styles/hover = SubResource("StyleBoxFlat_prtsi")
 theme_override_styles/hover_mirrored = SubResource("StyleBoxFlat_prtsi")
 theme_override_styles/hover_pressed = SubResource("StyleBoxFlat_prtsi")
