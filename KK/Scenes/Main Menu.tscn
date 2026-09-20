@@ -161,3 +161,7 @@ theme_override_font_sizes/font_size = 48
 text = "SUPER KNIGHT BROTHERS ADVENTURE"
 horizontal_alignment = 1
 autowrap_mode = 2
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_help_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_start_pressed"]
