@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://ckpjl71vpm8i5" path="res://scenes/killzone.tscn" id="5_s0nni"]
 [ext_resource type="PackedScene" uid="uid://eh4ag6ibncy3" path="res://scenes/enemy_slime.tscn" id="6_aug50"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cpr0p"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_400sg"]
 texture = ExtResource("2_qbsmt")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -169,7 +169,7 @@ texture = ExtResource("2_qbsmt")
 
 [sub_resource type="TileSet" id="TileSet_d75x8"]
 physics_layer_0/collision_layer = 1
-sources/1 = SubResource("TileSetAtlasSource_cpr0p")
+sources/1 = SubResource("TileSetAtlasSource_400sg")
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_e16wg"]
 normal = Vector2(1, 0)
