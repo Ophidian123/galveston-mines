@@ -44,3 +44,7 @@ func _physics_process(delta: float) -> void:
 			animated_sprite_2d.play("jump")
 		
 	move_and_slide()
+
+
+func _on_return_to_menu_pressed() -> void:
+	get_tree().change_scene_to_file("res://Scenes/Main Menu.tscn")
