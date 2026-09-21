@@ -15,9 +15,7 @@ changing some stuff on the project, so the entire thing is NOT built on the tuto
 That's what we changes and [here](https://www.youtube.com/watch?v=LOhfqjmasi0&t=2457s) is the tutorial that we followed
 
 ## For Thirdspace Mods
-Go to releases, and there I (oph) uploaded the .exe files for each of us, Siddarth is deciding wether to leave right now
-and his level isnt fully complete, he will leave the thirdspace team tommorow if he does. All of us are going to ship the same
-project anyways so yea
+Go to releases, and there I (oph) uploaded the .exe files for each of us, the releases page should be listed as the playable link in the ship
 
 # Future project readme (will update to actual readme after we start on it)
 
