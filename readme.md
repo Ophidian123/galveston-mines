@@ -4,7 +4,7 @@ Currently me (Oph) and my team are still learning Godot. That is why we are foll
 changing some stuff on the project, so the entire thing is NOT built on the tutorial solely. Apart from the tutorial we:
 
 - Added a Main Menu
-- Added more than 1 level (each for each of us, so 4 levels in total)
+- Added more than 1 level (each for each of us, so 3 levels in total)
 - Have different level design
 - Sometime have enemies, sometimes dont
 - PvN added lava to his (also he didnt have enemies)
