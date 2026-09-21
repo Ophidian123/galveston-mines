@@ -6,6 +6,7 @@
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_48e45"]
 texture = ExtResource("2_x1pvs")
+modulate_color = Color(0.30323282, 0.30323282, 0.30323282, 1)
 
 [node name="Help_tscn" type="Control" unique_id=1266216975]
 layout_mode = 3
@@ -22,10 +23,26 @@ offset_right = 1153.0
 offset_bottom = 647.0
 theme_override_fonts/font = ExtResource("1_377fx")
 text = "A - left
+
 D - Right
+
 Spacebar - jump
 
-Collect coins, avoid the slimes, and don't fall."
+Some Coins give more than others!
+
+When you die, you fall through the map and have to restart
+
+Collect coins, avoid the slimes, and don't fall.
+
+The purple and yellow thing in the middle is the score counter.
+
+Volume warning!
+
+Brightness warning
+
+There's LOTS of color and pikcking up coins is loud!
+
+Have Fun!"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -55,5 +72,5 @@ theme_override_fonts/font = ExtResource("1_377fx")
 text = "BACK"
 
 [connection signal="pressed" from="Button" to="." method="_on_back_pressed"]
-[connection signal="pressed" from="Button" to="Button" method="_on_back_button_pressed"]
 [connection signal="pressed" from="Button" to="Button" method="_on_help_pressed"]
+[connection signal="pressed" from="Button" to="Button" method="_on_back_button_pressed"]

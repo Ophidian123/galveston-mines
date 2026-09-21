@@ -3,8 +3,8 @@ extends CharacterBody2D
 
 var current_SPEED = 150.0
 const JUMP_VELOCITY = -300.0
-const walk_SPEED = 150.0
-const sprint_SPEED = 250.0
+const walk_SPEED = 250.0
+const sprint_SPEED = 450.0
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
