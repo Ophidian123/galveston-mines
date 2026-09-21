@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bp832gir4xvow"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hejvf"]
+
+[node name="Node2D" type="Node2D" unique_id=1135396270]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=370722763]
+sprite_frames = SubResource("SpriteFrames_hejvf")

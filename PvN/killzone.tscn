@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://gaa1g4j2m0qx"]
+
+[node name="Killzone" type="Area2D" unique_id=1339007745]
+collision_mask = 2
