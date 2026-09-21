@@ -4,7 +4,7 @@ Currently me (Oph) and my team are still learning Godot. That is why we are foll
 changing some stuff on the project, so the entire thing is NOT built on the tutorial solely. Apart from the tutorial we:
 
 - Added a Main Menu
-- Added more than 1 level (each for each of us, so 4 levels in total)
+- Added more than 1 level (each for each of us, so 3 levels in total)
 - Have different level design
 - Sometime have enemies, sometimes dont
 - PvN added lava to his (also he didnt have enemies)
@@ -13,6 +13,11 @@ changing some stuff on the project, so the entire thing is NOT built on the tuto
 - and also added help page and settings(with nothing in it) to Oph's (me) and KK's levels/games
 
 That's what we changes and [here](https://www.youtube.com/watch?v=LOhfqjmasi0&t=2457s) is the tutorial that we followed
+
+## For Thirdspace Mods
+Go to releases, and there I (oph) uploaded the .exe files for each of us, Siddarth is deciding wether to leave right now
+and his level isnt fully complete, he will leave the thirdspace team tommorow if he does. All of us are going to ship the same
+project anyways so yea
 
 # Future project readme (will update to actual readme after we start on it)
 
