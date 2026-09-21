@@ -1,12 +1,14 @@
 [gd_scene format=3 uid="uid://bnfdn4785dm6f"]
 
-[ext_resource type="Script" uid="uid://dy3hoo8rxg6dt" path="res://Scenes/killzone.gd" id="1_jvagm"]
+[ext_resource type="Script" uid="uid://dy3hoo8rxg6dt" path="res://Scripts/killzone.gd" id="1_jvagm"]
 
 [node name="killzone" type="Area2D" unique_id=42697058]
+collision_layer = 2
+collision_mask = 2
 script = ExtResource("1_jvagm")
 
 [node name="Timer" type="Timer" parent="." unique_id=1399613349]
-wait_time = 0.2
+wait_time = 0.6
 one_shot = true
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

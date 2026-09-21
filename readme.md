@@ -1,12 +1,31 @@
-# Galveston Mines
+# Current project Status
 
-## The Game
+Currently me (Oph) and my team are still learning Godot. That is why we are following a tutorial on YouTube, and then
+changing some stuff on the project, so the entire thing is NOT built on the tutorial solely. Apart from the tutorial we:
+
+- Added a Main Menu
+- Added more than 1 level (each for each of us, so 4 levels in total)
+- Have different level design
+- Sometime have enemies, sometimes dont
+- PvN added lava to his (also he didnt have enemies)
+- Changed some code (player speed, jump height, kill time etc.)
+- Added sprint function
+- and also added help page and settings(with nothing in it) to Oph's (me) and KK's levels/games
+
+That's what we changes and [here](https://www.youtube.com/watch?v=LOhfqjmasi0&t=2457s) is the tutorial that we followed
+
+# Future project readme (will update to actual readme after we start on it)
+
+
+## Galveston Mines
+
+### The Game
 
 The Galveston mines is a procedurally generated runner style game that takes inspiration from Roblox games Doors and Grace.
 This project was created on godot and is planned be compleated in 8 weeks for a full release, but expect it to be later
 rather than earlier
 
-## The Lore
+### The Lore
 
 The runner/main character is Bruce Cambell
 
@@ -24,7 +43,7 @@ The Wanderer is a fast moving black.. thing. that moves around in the halls, whe
 there will ALWAYS be a crawl space where he spawned. watch out for the lanters swinging and a crawl space, that means he's
 coming
 
-## The Players Objective
+### The Players Objective
 
 The Player (thats you!) just has to survival rooms and try to get the highest score, compare high scores with your friends
 (there is not leaderboard system planned, but we will see)! The rooms get harder each level, having more entities spawn and 
