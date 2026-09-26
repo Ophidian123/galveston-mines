@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://730ib82h3yrl"]
 
+[ext_resource type="Script" uid="uid://c5nqbnch070ke" path="res://scenes/room_gen_manager.gd" id="1_lbhrr"]
 [ext_resource type="PackedScene" uid="uid://bx38ydegfw6ib" path="res://scenes/bruce.tscn" id="1_yqjtg"]
 [ext_resource type="PackedScene" uid="uid://c8ns1iv03oxf0" path="res://room_scenes/room1.tscn" id="2_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://bcwk77e4afdfd" path="res://killzone.tscn" id="3_lnu2h"]
@@ -7,17 +8,13 @@
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_d75x8"]
 distance = -15.0
 
-[node name="Game" type="Node2D" unique_id=1589982425]
+[node name="Game" type="Node2D" unique_id=1589982425 node_paths=PackedStringArray("player")]
+script = ExtResource("1_lbhrr")
+room_scene = ExtResource("2_lnu2h")
+player = NodePath("CharacterBody2D")
 
-[node name="level1" parent="." unique_id=867787805 instance=ExtResource("2_lnu2h")]
-
-[node name="CharacterBody2D" parent="." unique_id=1503397351 instance=ExtResource("1_yqjtg")]
-position = Vector2(0, -84)
-
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1367870762]
-zoom = Vector2(2, 2)
-position_smoothing_enabled = true
-rotation_smoothing_enabled = true
+[node name="room1" parent="." unique_id=867787805 instance=ExtResource("2_lnu2h")]
+position = Vector2(448, 0)
 
 [node name="killzone" parent="." unique_id=1096667677 instance=ExtResource("3_lnu2h")]
 position = Vector2(-751, 713)
@@ -25,3 +22,18 @@ position = Vector2(-751, 713)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzone" unique_id=756408600]
 position = Vector2(249, -206)
 shape = SubResource("WorldBoundaryShape2D_d75x8")
+
+[node name="CharacterBody2D" parent="." unique_id=1503397351 instance=ExtResource("1_yqjtg")]
+z_index = 4096
+position = Vector2(0, -84)
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1367870762]
+zoom = Vector2(1.5, 1.5)
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
+
+[node name="Timer" type="Timer" parent="." unique_id=1886430954]
+wait_time = 3.0
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
