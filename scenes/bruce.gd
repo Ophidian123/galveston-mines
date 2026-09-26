@@ -9,17 +9,10 @@ const JUMP_VELOCITY = -400.0
 
 # Slide Settings
 const SLIDE_SPEED = 700.0
-const SLIDE_DURATION = 0.5
 
-# Slide Jump Settings
-const SLIDE_JUMP_BOOST = 1.5
-const BOOST_TIME = 0.3
 
 var sliding = false
-var slide_timer = 0.0
 
-var boosted = false
-var boost_timer = 0.0
 
 var facing = 1
 
@@ -46,7 +39,7 @@ func _physics_process(delta: float) -> void:
 	# Start Slide
 	if Input.is_action_just_pressed("slide") and is_on_floor() and !sliding:
 		sliding = true
-		slide_timer = SLIDE_DURATION
+		
 
 		if abs(velocity.x) > current_SPEED:
 			velocity.x *= 1.1
@@ -54,6 +47,14 @@ func _physics_process(delta: float) -> void:
 			velocity.x = facing * SLIDE_SPEED
 
 		animated_sprite_2d.play("slide")
+		
+		
+	if Input.is_action_just_pressed("slide") and Input.is_action_just_pressed("jump"):
+		current_SPEED += 50
+		
+		
+	if Input.is_action_just_released("slide"):
+		sliding = false
 
 	# Jump / Slide Jump
 	if Input.is_action_just_pressed("jump") and is_on_floor():
@@ -61,19 +62,10 @@ func _physics_process(delta: float) -> void:
 		velocity.y = JUMP_VELOCITY
 
 		if sliding:
-			velocity.x *= SLIDE_JUMP_BOOST
-
-			boosted = true
-			boost_timer = BOOST_TIME
-
-			sliding = false
-
-		animated_sprite_2d.play("jump")
+			animated_sprite_2d.play("jump")
 
 	# Sliding Logic
 	if sliding:
-
-		slide_timer -= delta
 
 		# Keep slide animation playing
 		animated_sprite_2d.play("slide")
@@ -81,8 +73,6 @@ func _physics_process(delta: float) -> void:
 		# No friction while sliding
 		velocity.x = sign(velocity.x) * abs(velocity.x)
 
-		if slide_timer <= 0:
-			sliding = false
 
 	else:
 
@@ -100,12 +90,6 @@ func _physics_process(delta: float) -> void:
 				current_SPEED * delta * 8
 			)
 
-	# Boost Timer
-	if boosted:
-		boost_timer -= delta
-
-		if boost_timer <= 0:
-			boosted = false
 
 	# Idle Animation
 	if sliding:
